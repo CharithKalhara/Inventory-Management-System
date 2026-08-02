@@ -22,14 +22,13 @@ A Spring Boot REST API for managing an inventory operation across products, ware
 ## Capabilities
 
 - JWT-based registration and login with BCrypt password hashing
-- Master-data management for brands, categories, units, suppliers, customers, products, and warehouses
+- Data management for brands, categories, units, suppliers, customers, products, and warehouses
 - Warehouse locations and stock records by product and warehouse
-- Purchase orders, goods-received notes (GRNs), and purchase returns
+- Purchase orders and purchase returns
 - Sales orders, invoices, payments, and sales returns
 - Stock-in, stock-out, transfers, adjustments, and searchable movement history
-- A dashboard with entity totals, inventory value, low-stock count, and five most recent invoices
-- Bean validation plus centralized handling for common not-found, duplicate, and insufficient-stock cases
-- Swagger UI / OpenAPI documentation
+- A dashboard with total, inventory value, low-stock count, and five most recent invoices
+- Swagger UI documentation
 
 ## Technology
 
@@ -39,8 +38,8 @@ A Spring Boot REST API for managing an inventory operation across products, ware
 | Framework | Spring Boot 4.1.0, Spring MVC |
 | Persistence | Spring Data JPA / Hibernate |
 | Database | MySQL |
-| Security | Spring Security, JWT (`jjwt`), BCrypt |
-| API documentation | springdoc-openapi / Swagger UI |
+| Security | Spring Security, JWT, BCrypt |
+| API documentation | Swagger UI |
 | Build | Maven Wrapper |
 
 ## Architecture
@@ -61,7 +60,6 @@ The codebase follows a conventional layered structure. Controllers accept reques
 - JDK 21
 - MySQL 8.0 or compatible server
 - A MySQL account with permission to create and update the application schema
-- Git (optional, for cloning)
 
 ## Getting started
 
