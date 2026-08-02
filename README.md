@@ -1,6 +1,6 @@
 # Inventory Management System
 
-A Spring Boot REST API for managing an inventory operation across products, warehouses, purchasing, sales, invoicing, payments, and stock movements. The application persists data in MySQL, exposes interactive OpenAPI documentation, and protects its business endpoints with JWT bearer authentication.
+A Spring Boot REST API for managing an inventory operation across products, warehouses, purchasing, sales, invoicing, payments, and stock movements. The application persists data in MySQL, exposes interactive OpenAPI documentation, and protects its business API with JWT bearer authentication.
 
 ## Contents
 
