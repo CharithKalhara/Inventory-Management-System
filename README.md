@@ -2,8 +2,6 @@
 
 A Spring Boot REST API for managing an inventory operation across products, warehouses, purchasing, sales, invoicing, payments, and stock movements. The application persists data in MySQL, exposes interactive OpenAPI documentation, and protects its business endpoints with JWT bearer authentication.
 
-> This repository currently contains the backend API. Although a root `package.json` is present, a React application is not included in the repository.
-
 ## Contents
 
 - [Capabilities](#capabilities)
