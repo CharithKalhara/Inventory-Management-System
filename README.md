@@ -255,13 +255,6 @@ On Windows:
 - Authentication is required for every business endpoint. Roles are stored on users and embedded in the authentication flow; no controller-level role restrictions are currently configured.
 - Do not reuse the committed development JWT secret in a deployed environment. Move database credentials and JWT secrets into environment-specific configuration before deployment.
 
-## Contributing
-
-1. Fork the repository.
-2. Create a branch: `git checkout -b feature/your-feature`.
-3. Make your changes and add relevant tests.
-4. Run `./mvnw test`.
-5. Commit, push, and open a pull request.
 
 ## License
 
